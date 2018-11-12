@@ -1,0 +1,7 @@
+myTuple=("vivek",95624,"bijith","ram")
+myTuple1=("raju")
+print(myTuple)
+print(myTuple[0])
+print(myTuple[1:3])
+print(myTuple*3)
+print(myTuple+myTuple1)
