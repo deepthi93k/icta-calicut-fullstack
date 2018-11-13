@@ -1,0 +1,55 @@
+{% extends 'layouts.html' %}
+
+{% block myContent %}
+
+<div class="jumbotron">
+        <form method="POST" action="/send">
+
+        <h2><center> Contact Form</center> </h2>
+                <div class="col-sm-6">
+        <div class="row">
+                
+
+                <div class="col-sm-6">name</div>
+    <div class="col-sm-6"><input type="text" class="form-control" placeholder="name" name="name"/></div>
+    
+                </div>
+           
+        <br>
+        
+                <div class="row">
+                        <div class="col-sm-6">email</div>
+                        <div class="col-sm-6"><input type="email" class="form-control" placeholder="email" name="email"/></div>
+    
+                    </div>
+                    <br>
+                    
+                    <div class="row">
+                            <div class="col-sm-6">mobile</div>
+                            <div class="col-sm-6"><input type="number" class="form-control" placeholder="mobile" name="mobile"/></div>
+        
+                        </div>
+                        <br>
+                        <div class="row">
+                                <div class="col-sm-6">subject</div>
+                                <div class="col-sm-6"><input type="text" class="form-control" placeholder="subject" name="subject"/></div>
+            
+                            </div>
+                            <br>
+                            <div class="row">
+                                    <div class="col-sm-6">message</div>
+                                    <div class="col-sm-6">
+                <textarea name="message"></textarea>
+                </div>
+                <button type="submit" id="submit">submit</button>
+                                </div>
+                        </div>  
+                        </div>
+                        </form>
+                        
+                
+                                {% endblock %}
+            
+                        
+        
+
